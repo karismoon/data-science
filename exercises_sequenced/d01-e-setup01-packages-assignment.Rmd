@@ -26,6 +26,9 @@ knitr::opts_chunk$set(echo = TRUE)
 In [RStudio](https://bookdown.org/yihui/rmarkdown/r-code.html) use the shortcut
 `Ctrl + Alt + I` (`Cmd + Option + I` on Mac). Type the command
 `library(tidyverse`).
+```{r}
+library(tidyverse)
+```
 
 
 Make sure to load packages at the *beginning* of your notebooks! This is a
@@ -40,6 +43,9 @@ cursor.
 
 
 ### __q3__ What are the main differences between `install.packages()` and `library()`? How often do you need to call each one?
+
+install - download for the first time
+library - loads it for use in the file
 
 
 <!-- include-exit-ticket -->
