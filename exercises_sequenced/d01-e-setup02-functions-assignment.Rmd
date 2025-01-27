@@ -37,7 +37,7 @@ At this point, we should just pick a link, and go back if it's not relevant.
 Get help on the built-in `rnorm` function.
 
 ```{r rnorm-help, eval=FALSE}
-## Your code here
+?rnorm
 ```
 
 ## (Not) Executing functions
@@ -56,7 +56,7 @@ Calling the function this way shows its *source code*. This can sometimes be hel
 Show the source code for `lm`.
 
 ```{r rnorm-source}
-## Your code here
+lm
 ```
 
 ## Executing functions (for real)
@@ -107,7 +107,7 @@ Using either the documentation or the source, determine the arguments for `rnorm
 Using what you learned in q3, generate a random sample of size `n = 10` using `rnorm`.
 
 ```{r}
-## Write your code here
+rnorm(10)
 ```
 
 ## Adapting examples
@@ -126,7 +126,9 @@ Look up the documentation for the function `tribble`, and figure out how to crea
 *Hint*: Adapt an example!
 
 ```{r}
-## Write your code here
+u = c(1,3)
+w = c(2, 4)
+tibble(u, w)
 ```
 
 
